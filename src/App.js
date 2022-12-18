@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import Micomponente from './Micomponente';
+import { SegundoComponente } from './SegundoComponente';
 
 function App() {
   return (
@@ -7,7 +9,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+         Empezamos <code>src/App.js</code> Shake and Learn!!.
         </p>
         <a
           className="App-link"
@@ -17,7 +19,12 @@ function App() {
         >
           Learn React
         </a>
+        <Micomponente/>
+        <hr/>
+        <SegundoComponente/>
       </header>
+      {/* Cargar mi primer componente*/}
+     
     </div>
   );
 }
