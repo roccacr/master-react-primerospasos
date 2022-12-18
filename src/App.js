@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Micomponente from './Micomponente';
 import { SegundoComponente } from './SegundoComponente';
+import { TercerComponente } from './TercerComponente';
 
 function App() {
   return (
@@ -19,6 +20,8 @@ function App() {
         >
           Learn React
         </a>
+        <TercerComponente nombre = "Alex" apellidos= 'Umana'/>
+        <hr/>
         <Micomponente/>
         <hr/>
         <SegundoComponente/>
