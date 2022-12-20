@@ -5,6 +5,7 @@ export const TercerComponente = (props) => {
     return (
         <div>
             <h1>Comunicacion entre componentes</h1>
+            <h2>Test</h2>
         </div>
     )
 }
